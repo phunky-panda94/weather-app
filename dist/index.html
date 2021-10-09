@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    	<meta charset="UTF-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="main.js" defer></script>
-    	<title>'weather-app'</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="main.js" defer></script> -->
+    <script src="../src/scripts/index.js" type="module" defer></script>
+    <link rel="stylesheet" href="../src/styles/style.css">
+    <title>Weather App</title>
 </head>
 <body>
+    <!-- create form to enter new location  -->
+    <form>
+        <label for="location">
+            <input id="name" type="search" name="location">
+            <button type="submit">Search</button>
+        </label>
+    </form>
+    <!-- display location weather data -->
+    <ul>
+    </ul>
+    <div class="loader none"></div>
 </body>
 </html>
